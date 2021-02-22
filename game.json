@@ -1,0 +1,212 @@
+{
+  "passages": [
+    {
+      "text": "You're playing hide and seek with your 3 other siblings. Pick a location to hide in. \n\n[[Go straight->Down the Hall]] \n[[Go left->To the Kitchen]]\n\n",
+      "links": [
+        {
+          "name": "Go straight",
+          "link": "Down the Hall",
+          "pid": "2"
+        },
+        {
+          "name": "Go left",
+          "link": "To the Kitchen",
+          "pid": "3"
+        }
+      ],
+      "name": "Living Room",
+      "pid": "1",
+      "position": {
+        "x": "407",
+        "y": "171"
+      }
+    },
+    {
+      "text": "You come across several doors lining the hall. These doors lead to different bedrooms. \n\n[[Go straight->Parent's Room]]\n[[Go right->Your Room]]\n[[Go left->Brother's room]]\n[[Turn around->Living Room]] ",
+      "links": [
+        {
+          "name": "Go straight",
+          "link": "Parent's Room",
+          "pid": "4"
+        },
+        {
+          "name": "Go right",
+          "link": "Your Room",
+          "pid": "5"
+        },
+        {
+          "name": "Go left",
+          "link": "Brother's room",
+          "pid": "6"
+        },
+        {
+          "name": "Turn around",
+          "link": "Living Room",
+          "pid": "1"
+        }
+      ],
+      "name": "Down the Hall",
+      "pid": "2",
+      "position": {
+        "x": "182",
+        "y": "321"
+      }
+    },
+    {
+      "text": "You slid into the kitchen hoping to find the best hiding spot. You glance around the room and smile. \n\n[[Hide under the sink->Code Spy]] \n[[Hide under the table->Get Caught]] \n[[Go back->Living Room]] \n",
+      "links": [
+        {
+          "name": "Hide under the sink",
+          "link": "Code Spy",
+          "pid": "8"
+        },
+        {
+          "name": "Hide under the table",
+          "link": "Get Caught",
+          "pid": "7"
+        },
+        {
+          "name": "Go back",
+          "link": "Living Room",
+          "pid": "1"
+        }
+      ],
+      "name": "To the Kitchen",
+      "pid": "3",
+      "position": {
+        "x": "332",
+        "y": "321"
+      }
+    },
+    {
+      "text": "You try and turn the knob but find that the door has been locked. Your parents must have gotten annoyed with you playing in there. \n\n[[Turn around->Living Room]] \n[[Try your room->Your Room]] \n[[Try your brother's room->Brother's room]] \n[[Hide behind the potted plant in the corner->Get Caught]]",
+      "links": [
+        {
+          "name": "Turn around",
+          "link": "Living Room",
+          "pid": "1"
+        },
+        {
+          "name": "Try your room",
+          "link": "Your Room",
+          "pid": "5"
+        },
+        {
+          "name": "Try your brother's room",
+          "link": "Brother's room",
+          "pid": "6"
+        },
+        {
+          "name": "Hide behind the potted plant in the corner",
+          "link": "Get Caught",
+          "pid": "7"
+        }
+      ],
+      "name": "Parent's Room",
+      "pid": "4",
+      "position": {
+        "x": "32",
+        "y": "471"
+      }
+    },
+    {
+      "text": "You've entered your rather clean bedroom, thanks to your parents that is. You look around the room to devise a plan on finding the best spot. \n\n[[Jump into the closet->Code Spy]]\n[[Hide behind the stack of stuffed animals->Get Caught]] \n[[Change your mind and find a new spot->To the Kitchen]] \n[[Go back the way you came->Down the Hall]] ",
+      "links": [
+        {
+          "name": "Jump into the closet",
+          "link": "Code Spy",
+          "pid": "8"
+        },
+        {
+          "name": "Hide behind the stack of stuffed animals",
+          "link": "Get Caught",
+          "pid": "7"
+        },
+        {
+          "name": "Change your mind and find a new spot",
+          "link": "To the Kitchen",
+          "pid": "3"
+        },
+        {
+          "name": "Go back the way you came",
+          "link": "Down the Hall",
+          "pid": "2"
+        }
+      ],
+      "name": "Your Room",
+      "pid": "5",
+      "position": {
+        "x": "182",
+        "y": "471"
+      }
+    },
+    {
+      "text": "You stumble on a pile of dirty clothes upon entering the room. Gross. There is an odd stench lingering in the room, must be the week old chicken nuggets on the desk. \n\n[[On second thought, your room sounds better->Your Room]]\n[[Slip underneath the bed->Get Caught]] \n[[Make a run for the kitchen->To the Kitchen]] \n[[Hide behind the door->Code Spy]] ",
+      "links": [
+        {
+          "name": "On second thought, your room sounds better",
+          "link": "Your Room",
+          "pid": "5"
+        },
+        {
+          "name": "Slip underneath the bed",
+          "link": "Get Caught",
+          "pid": "7"
+        },
+        {
+          "name": "Make a run for the kitchen",
+          "link": "To the Kitchen",
+          "pid": "3"
+        },
+        {
+          "name": "Hide behind the door",
+          "link": "Code Spy",
+          "pid": "8"
+        }
+      ],
+      "name": "Brother's room",
+      "pid": "6",
+      "position": {
+        "x": "332",
+        "y": "471"
+      }
+    },
+    {
+      "text": "Boo! Your brother found your hiding spot. \n\n[[Try a different location->Living Room]] ",
+      "links": [
+        {
+          "name": "Try a different location",
+          "link": "Living Room",
+          "pid": "1"
+        }
+      ],
+      "name": "Get Caught",
+      "pid": "7",
+      "position": {
+        "x": "32",
+        "y": "621"
+      }
+    },
+    {
+      "text": "You hide for over 5 minutes. You soon get bored and go find what happened to your other siblings. You find them watching tv because they got annoyed they couldn't find you. \n\n[[Watch TV->Living Room]] ",
+      "links": [
+        {
+          "name": "Watch TV",
+          "link": "Living Room",
+          "pid": "1"
+        }
+      ],
+      "name": "Code Spy",
+      "pid": "8",
+      "position": {
+        "x": "182",
+        "y": "621"
+      }
+    }
+  ],
+  "name": "Hide and Seek",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.12",
+  "ifid": "39C54AC0-9352-40AA-84D7-FC58C34E1C27"
+}
